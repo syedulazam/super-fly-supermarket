@@ -1,0 +1,84 @@
+.color{
+    background-color: #909FFF;
+}
+
+a:hover{
+    background-color: green;
+    color: white !important;
+    border: white;
+    border-radius: 3px;
+
+}
+
+.marginColor{
+    position: relative;
+    right: 100px;
+    color: #6BBF5E;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+}
+
+.searchSize{
+    height:40px !important; 
+}
+
+.black{
+    color: black;
+}
+
+a{
+    font-size: 20px;
+}
+
+ul{
+    padding-top:10px;
+    padding-bottom: 10px;
+    padding-left: 250px !important;
+}
+
+li{
+     padding-left: 40px; 
+}
+
+.paddingRight{
+    padding-right: 220px;
+}
+
+.fruitsColor{
+    color: #ECFF00  !important;
+}
+
+.fruitsColor1{
+    color: #F9FFB2 !important; 
+}
+
+.socials{
+    position: relative;
+    left: 68px;
+}
+
+.socials1{
+    position: relative;
+    left: 120px;
+}
+
+.signinLogin{
+    color: red !important;
+}
+
+/*////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+html { 
+    background: url(images/vegetables.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: covser;
+    background-size: cover;
+  }
+
+.position{
+    position: relative;
+    top: 400px;
+    text-align: center;
+}
+

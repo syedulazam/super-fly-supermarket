@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Log in</title>
+  
+   <style>
+    .signup {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    .signup a:hover{
+        color: blue;
+    }
+    #loginForm .card {
+      width: 400px;
+      background-color: #fff;
+      border-radius: 8px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+      padding: 20px;
+    }
+
+    #loginForm .card-header {
+      text-align: center;
+    }
+
+    #loginForm .card-body {
+      margin-top: 20px;
+    }
+
+    #loginForm input[type="text"],
+    #loginForm input[type="password"] {
+      width: 100%;
+      padding: 8px;
+      margin-bottom: 10px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+
+    #loginForm input[type="submit"] {
+      width: 100%;
+      padding: 10px;
+      background-color: #40E31F;
+      color: #fff;
+      border: none;
+      border-radius: 4px;
+    }
+  </style>
+
+<script>
+  function showPopUp(){
+    alert("Logged in successfully");
+  }
+</script>
+
+</head>
+<body style="background-color: #9BA8E1;">
+
+  <section class="signup">
+    <div class="container">
+      <form id="loginForm" action="Homepage.html" method="post" onsubmit="showPopUp()">
+        <div class="card">
+          <div class="card-header">
+            <h2 style="color: red;">Log in</h2>
+          </div>
+          <div class="card-body">
+
+            
+            <label for="username"><b>Username</b></label><br>
+            <input type="text" id="username" name="username" required><br><br>
+
+            <label for="password"><b>Password</b></label>
+            <input type="password" id="password" name="password" required><br><br>
+
+            <input type="submit" name="login" style="font-size:20px" value="Login" ><br><Br><br>
+
+            <a href = "Sign up.html" >Don't have an account? Sign up</a>
+
+           </div>
+        </div>
+      </form>
+    </div>
+  </section>
+
+
+</body>
+</html>
