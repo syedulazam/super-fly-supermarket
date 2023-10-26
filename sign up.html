@@ -1,0 +1,114 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Sign up</title>
+
+    <style>
+    .signup {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    .signup a:hover{
+        color: blue;
+    }
+    #loginForm .card {
+      width: 400px;
+      background-color: #fff;
+      border-radius: 8px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+      padding: 20px;
+    }
+
+    #loginForm .card-header {
+      text-align: center;
+    }
+
+    #loginForm .card-body {
+      margin-top: 20px;
+    }
+
+    #loginForm input[type="text"],
+    #loginForm input[type="password"] {
+      width: 100%;
+      padding: 8px;
+      margin-bottom: 10px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+
+    #loginForm input[type="submit"] {
+      width: 100%;
+      padding: 10px;
+      background-color: #40E31F;
+      color: #fff;
+      border: none;
+      border-radius: 4px;
+    }
+  </style>
+
+</head>
+<body style="background-color: #9BA8E1;"><Br<br><br><Br><Br<br><br><Br>
+
+  <section class="signup">
+    <div class="container">
+      <form id="loginForm" action="Login.html" method="post" onsubmit="showPopUp()">
+          <div class="card">
+          <div class="card-header">
+            <h1 style="color: red;">Sign up</h1>
+          </div>
+          <div class="card-body">
+
+            
+            <label for="username"><b>Username</b></label><br>
+            <input type="text" id="username" name="username" required><br><br>
+
+            <label for = "age"><b>Age</b></label><br>
+            <input type="number" id = "age" name="age" style="border-color: lightgray;" required><br><BR>
+
+            <label for = "Gender"><b>Gender</b></label><br><Br>
+            <input type="radio" id = "Male" name="Male">
+            <label for = "Gender"> Male</label>
+            <input type="radio" id = "Female" name="Female">
+            <Label for = "Female" >Female</Label><Br><br>
+
+            <label for="email"><b> Date of birth <br></b></label>
+            <input type="date" id = "date" name = "date" required><br><BR>
+
+            <label for = "phone"><b>Phone number</b></label><br>
+			      <input type="tel" id = "phone number" pattern="[0-9]{3} [0-9]{3} [0-9]{4}" name="phone" class= "padding" required><Br>
+            <small><b> Format: 056 532 5267</b></small><br><BR>
+
+            <label for="email"><b>Email Address <br></b></label>
+            <input type="text" id="email" name="email" placeholder="@gmail.com" placeholder="@hotmail.com" required><br><BR>
+
+            <label for="password"><b>Password</b></label>
+            <input type="password" id="password" name="password" required><br><br>
+
+            <label for = "Confirm password"><b> Confirm password</b></label>
+            <input type="password" id = "Confirm password" name="Confirm password" placeholder="password" required><br><br>    
+
+            <input type="submit" name="Sign up" style="font-size:20px" value="Sign up"><br><Br><br>
+ 
+
+              <a href = "Login.html" >Already have an account? Login</a>
+          
+           </div>
+        </div>
+      </form>
+    </div>
+  </section>
+
+  <bR><BR><BR><BR>
+
+    <script>
+      function showPopUp(){
+        alert("Registration successful");
+      }
+    </script>
+    
+</body>
+</html>
