@@ -66,3 +66,14 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     });
 });
+
+function addToCart(){
+    alert("The product has been added to the cart")
+        }
+        
+function navigation(){
+    var confirmation = confirm("Are you sure you want to log out?")
+    if(confirmation){
+        window.location.href = "sign up.html";
+    }
+}
